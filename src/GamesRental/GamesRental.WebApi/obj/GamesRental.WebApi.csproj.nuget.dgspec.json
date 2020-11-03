@@ -1,0 +1,478 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Git\\GitHub\\invillia\\src\\GamesRental\\GamesRental.WebApi\\GamesRental.WebApi.csproj": {}
+  },
+  "projects": {
+    "C:\\Git\\GitHub\\invillia\\src\\GamesRental\\GamesRental.Application\\GamesRental.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Git\\GitHub\\invillia\\src\\GamesRental\\GamesRental.Application\\GamesRental.Application.csproj",
+        "projectName": "GamesRental.Application",
+        "projectPath": "C:\\Git\\GitHub\\invillia\\src\\GamesRental\\GamesRental.Application\\GamesRental.Application.csproj",
+        "packagesPath": "C:\\Users\\patri\\.nuget\\packages\\",
+        "outputPath": "C:\\Git\\GitHub\\invillia\\src\\GamesRental\\GamesRental.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\patri\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Git\\GitHub\\invillia\\src\\GamesRental\\GamesRental.Domain\\GamesRental.Domain.csproj": {
+                "projectPath": "C:\\Git\\GitHub\\invillia\\src\\GamesRental\\GamesRental.Domain\\GamesRental.Domain.csproj"
+              },
+              "C:\\Git\\GitHub\\invillia\\src\\GamesRental\\GamesRental.Util\\GamesRental.Util.csproj": {
+                "projectPath": "C:\\Git\\GitHub\\invillia\\src\\GamesRental\\GamesRental.Util\\GamesRental.Util.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[9.2.2, )"
+            },
+            "automapper": {
+              "target": "Package",
+              "version": "[10.1.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Git\\GitHub\\invillia\\src\\GamesRental\\GamesRental.Domain\\GamesRental.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Git\\GitHub\\invillia\\src\\GamesRental\\GamesRental.Domain\\GamesRental.Domain.csproj",
+        "projectName": "GamesRental.Domain",
+        "projectPath": "C:\\Git\\GitHub\\invillia\\src\\GamesRental\\GamesRental.Domain\\GamesRental.Domain.csproj",
+        "packagesPath": "C:\\Users\\patri\\.nuget\\packages\\",
+        "outputPath": "C:\\Git\\GitHub\\invillia\\src\\GamesRental\\GamesRental.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\patri\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Git\\GitHub\\invillia\\src\\GamesRental\\GamesRental.Entities\\GamesRental.Entities.csproj": {
+                "projectPath": "C:\\Git\\GitHub\\invillia\\src\\GamesRental\\GamesRental.Entities\\GamesRental.Entities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Git\\GitHub\\invillia\\src\\GamesRental\\GamesRental.Entities\\GamesRental.Entities.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Git\\GitHub\\invillia\\src\\GamesRental\\GamesRental.Entities\\GamesRental.Entities.csproj",
+        "projectName": "GamesRental.Entities",
+        "projectPath": "C:\\Git\\GitHub\\invillia\\src\\GamesRental\\GamesRental.Entities\\GamesRental.Entities.csproj",
+        "packagesPath": "C:\\Users\\patri\\.nuget\\packages\\",
+        "outputPath": "C:\\Git\\GitHub\\invillia\\src\\GamesRental\\GamesRental.Entities\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\patri\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Git\\GitHub\\invillia\\src\\GamesRental\\GamesRental.Infrastructure.Data\\GamesRental.Infrastructure.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Git\\GitHub\\invillia\\src\\GamesRental\\GamesRental.Infrastructure.Data\\GamesRental.Infrastructure.Data.csproj",
+        "projectName": "GamesRental.Infrastructure.Data",
+        "projectPath": "C:\\Git\\GitHub\\invillia\\src\\GamesRental\\GamesRental.Infrastructure.Data\\GamesRental.Infrastructure.Data.csproj",
+        "packagesPath": "C:\\Users\\patri\\.nuget\\packages\\",
+        "outputPath": "C:\\Git\\GitHub\\invillia\\src\\GamesRental\\GamesRental.Infrastructure.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\patri\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Git\\GitHub\\invillia\\src\\GamesRental\\GamesRental.Domain\\GamesRental.Domain.csproj": {
+                "projectPath": "C:\\Git\\GitHub\\invillia\\src\\GamesRental\\GamesRental.Domain\\GamesRental.Domain.csproj"
+              },
+              "C:\\Git\\GitHub\\invillia\\src\\GamesRental\\GamesRental.Entities\\GamesRental.Entities.csproj": {
+                "projectPath": "C:\\Git\\GitHub\\invillia\\src\\GamesRental\\GamesRental.Entities\\GamesRental.Entities.csproj"
+              },
+              "C:\\Git\\GitHub\\invillia\\src\\GamesRental\\GamesRental.Util\\GamesRental.Util.csproj": {
+                "projectPath": "C:\\Git\\GitHub\\invillia\\src\\GamesRental\\GamesRental.Util\\GamesRental.Util.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "microsoft.entityframeworkcore": {
+              "target": "Package",
+              "version": "[3.1.9, )"
+            },
+            "microsoft.entityframeworkcore.sqlserver": {
+              "target": "Package",
+              "version": "[3.1.9, )"
+            },
+            "microsoft.entityframeworkcore.tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.9, )"
+            },
+            "microsoft.extensions.configuration.fileextensions": {
+              "target": "Package",
+              "version": "[3.1.9, )"
+            },
+            "microsoft.extensions.configuration.json": {
+              "target": "Package",
+              "version": "[3.1.9, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Git\\GitHub\\invillia\\src\\GamesRental\\GamesRental.Infrastructure.IoC\\GamesRental.Infrastructure.CrossCutting.IoC.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Git\\GitHub\\invillia\\src\\GamesRental\\GamesRental.Infrastructure.IoC\\GamesRental.Infrastructure.CrossCutting.IoC.csproj",
+        "projectName": "GamesRental.Infrastructure.CrossCutting.IoC",
+        "projectPath": "C:\\Git\\GitHub\\invillia\\src\\GamesRental\\GamesRental.Infrastructure.IoC\\GamesRental.Infrastructure.CrossCutting.IoC.csproj",
+        "packagesPath": "C:\\Users\\patri\\.nuget\\packages\\",
+        "outputPath": "C:\\Git\\GitHub\\invillia\\src\\GamesRental\\GamesRental.Infrastructure.IoC\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\patri\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Git\\GitHub\\invillia\\src\\GamesRental\\GamesRental.Application\\GamesRental.Application.csproj": {
+                "projectPath": "C:\\Git\\GitHub\\invillia\\src\\GamesRental\\GamesRental.Application\\GamesRental.Application.csproj"
+              },
+              "C:\\Git\\GitHub\\invillia\\src\\GamesRental\\GamesRental.Infrastructure.Data\\GamesRental.Infrastructure.Data.csproj": {
+                "projectPath": "C:\\Git\\GitHub\\invillia\\src\\GamesRental\\GamesRental.Infrastructure.Data\\GamesRental.Infrastructure.Data.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "microsoft.extensions.dependencyinjection": {
+              "target": "Package",
+              "version": "[3.1.9, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Git\\GitHub\\invillia\\src\\GamesRental\\GamesRental.Util\\GamesRental.Util.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Git\\GitHub\\invillia\\src\\GamesRental\\GamesRental.Util\\GamesRental.Util.csproj",
+        "projectName": "GamesRental.Util",
+        "projectPath": "C:\\Git\\GitHub\\invillia\\src\\GamesRental\\GamesRental.Util\\GamesRental.Util.csproj",
+        "packagesPath": "C:\\Users\\patri\\.nuget\\packages\\",
+        "outputPath": "C:\\Git\\GitHub\\invillia\\src\\GamesRental\\GamesRental.Util\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\patri\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Git\\GitHub\\invillia\\src\\GamesRental\\GamesRental.WebApi\\GamesRental.WebApi.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Git\\GitHub\\invillia\\src\\GamesRental\\GamesRental.WebApi\\GamesRental.WebApi.csproj",
+        "projectName": "GamesRental.WebApi",
+        "projectPath": "C:\\Git\\GitHub\\invillia\\src\\GamesRental\\GamesRental.WebApi\\GamesRental.WebApi.csproj",
+        "packagesPath": "C:\\Users\\patri\\.nuget\\packages\\",
+        "outputPath": "C:\\Git\\GitHub\\invillia\\src\\GamesRental\\GamesRental.WebApi\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\patri\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Git\\GitHub\\invillia\\src\\GamesRental\\GamesRental.Infrastructure.Data\\GamesRental.Infrastructure.Data.csproj": {
+                "projectPath": "C:\\Git\\GitHub\\invillia\\src\\GamesRental\\GamesRental.Infrastructure.Data\\GamesRental.Infrastructure.Data.csproj"
+              },
+              "C:\\Git\\GitHub\\invillia\\src\\GamesRental\\GamesRental.Infrastructure.IoC\\GamesRental.Infrastructure.CrossCutting.IoC.csproj": {
+                "projectPath": "C:\\Git\\GitHub\\invillia\\src\\GamesRental\\GamesRental.Infrastructure.IoC\\GamesRental.Infrastructure.CrossCutting.IoC.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[5.6.3, )"
+            },
+            "automapper": {
+              "target": "Package",
+              "version": "[10.1.1, )"
+            },
+            "automapper.extensions.microsoft.dependencyinjection": {
+              "target": "Package",
+              "version": "[8.1.0, )"
+            },
+            "microsoft.entityframeworkcore": {
+              "target": "Package",
+              "version": "[3.1.9, )"
+            },
+            "microsoft.entityframeworkcore.sqlserver": {
+              "target": "Package",
+              "version": "[3.1.9, )"
+            },
+            "microsoft.entityframeworkcore.tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.9, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

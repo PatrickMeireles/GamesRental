@@ -1,0 +1,9 @@
+C:\Git\GitHub\invillia\src\GamesRental\GamesRental.Entities\bin\Debug\netcoreapp3.1\GamesRental.Entities.deps.json
+C:\Git\GitHub\invillia\src\GamesRental\GamesRental.Entities\bin\Debug\netcoreapp3.1\GamesRental.Entities.dll
+C:\Git\GitHub\invillia\src\GamesRental\GamesRental.Entities\bin\Debug\netcoreapp3.1\GamesRental.Entities.pdb
+C:\Git\GitHub\invillia\src\GamesRental\GamesRental.Entities\obj\Debug\netcoreapp3.1\GamesRental.Entities.csprojAssemblyReference.cache
+C:\Git\GitHub\invillia\src\GamesRental\GamesRental.Entities\obj\Debug\netcoreapp3.1\GamesRental.Entities.AssemblyInfoInputs.cache
+C:\Git\GitHub\invillia\src\GamesRental\GamesRental.Entities\obj\Debug\netcoreapp3.1\GamesRental.Entities.AssemblyInfo.cs
+C:\Git\GitHub\invillia\src\GamesRental\GamesRental.Entities\obj\Debug\netcoreapp3.1\GamesRental.Entities.csproj.CoreCompileInputs.cache
+C:\Git\GitHub\invillia\src\GamesRental\GamesRental.Entities\obj\Debug\netcoreapp3.1\GamesRental.Entities.dll
+C:\Git\GitHub\invillia\src\GamesRental\GamesRental.Entities\obj\Debug\netcoreapp3.1\GamesRental.Entities.pdb

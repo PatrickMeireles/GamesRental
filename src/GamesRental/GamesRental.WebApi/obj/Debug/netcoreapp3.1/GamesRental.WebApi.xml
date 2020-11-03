@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>GamesRental.WebApi</name>
+    </assembly>
+    <members>
+        <member name="M:GamesRental.WebApi.Controllers.LoginController.Authenticate(GamesRental.Application.ViewModel.LoginViewModel)">
+            <summary>
+            Chamada de Autenticação de usuário.
+            </summary>
+            <param name="model"></param>
+            <returns>
+            - Se o objeto do parâmetro for nulo, retorna 404;
+            - Se possuir algum erro na validação, retorna 400;
+            - Se não, irá retornar 200 com o Token.
+            </returns>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "GamesRental.Domain/1.0.0": {
+        "dependencies": {
+          "GamesRental.Entities": "1.0.0"
+        },
+        "runtime": {
+          "GamesRental.Domain.dll": {}
+        }
+      },
+      "GamesRental.Entities/1.0.0": {
+        "runtime": {
+          "GamesRental.Entities.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "GamesRental.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "GamesRental.Entities/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

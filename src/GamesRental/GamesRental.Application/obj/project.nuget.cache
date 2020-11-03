@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "eOjo0R8uawRRajvrLrCUmBAXALVeYwfKBNcpa+QeUKk6OK6JraS6s1rnxh8jcm5eLMsoiyXOOHvqYh8LFYeN0A==",
+  "success": true,
+  "projectFilePath": "C:\\Git\\GitHub\\invillia\\src\\GamesRental\\GamesRental.Application\\GamesRental.Application.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\patri\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
+    "C:\\Users\\patri\\.nuget\\packages\\fluentvalidation\\9.2.2\\fluentvalidation.9.2.2.nupkg.sha512",
+    "C:\\Users\\patri\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
+    "C:\\Users\\patri\\.nuget\\packages\\system.reflection.emit\\4.7.0\\system.reflection.emit.4.7.0.nupkg.sha512"
+  ],
+  "logs": []
+}

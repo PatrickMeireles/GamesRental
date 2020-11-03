@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="microsoft.entityframeworkcore" Version="3.1.9" />
+    <PackageReference Include="microsoft.entityframeworkcore.sqlserver" Version="3.1.9" />
+    <PackageReference Include="microsoft.entityframeworkcore.tools" Version="3.1.9">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="microsoft.extensions.configuration.fileextensions" Version="3.1.9" />
+    <PackageReference Include="microsoft.extensions.configuration.json" Version="3.1.9" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\GamesRental.Domain\GamesRental.Domain.csproj" />
+    <ProjectReference Include="..\GamesRental.Entities\GamesRental.Entities.csproj" />
+    <ProjectReference Include="..\GamesRental.Util\GamesRental.Util.csproj" />
+  </ItemGroup>
+
+</Project>
