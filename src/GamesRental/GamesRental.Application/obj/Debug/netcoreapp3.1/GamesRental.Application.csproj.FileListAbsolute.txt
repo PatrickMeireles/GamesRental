@@ -3,14 +3,14 @@ C:\Git\GitHub\invillia\src\GamesRental\GamesRental.Application\bin\Debug\netcore
 C:\Git\GitHub\invillia\src\GamesRental\GamesRental.Application\bin\Debug\netcoreapp3.1\GamesRental.Application.pdb
 C:\Git\GitHub\invillia\src\GamesRental\GamesRental.Application\bin\Debug\netcoreapp3.1\GamesRental.Domain.dll
 C:\Git\GitHub\invillia\src\GamesRental\GamesRental.Application\bin\Debug\netcoreapp3.1\GamesRental.Entities.dll
+C:\Git\GitHub\invillia\src\GamesRental\GamesRental.Application\bin\Debug\netcoreapp3.1\GamesRental.Util.dll
 C:\Git\GitHub\invillia\src\GamesRental\GamesRental.Application\bin\Debug\netcoreapp3.1\GamesRental.Domain.pdb
+C:\Git\GitHub\invillia\src\GamesRental\GamesRental.Application\bin\Debug\netcoreapp3.1\GamesRental.Util.pdb
 C:\Git\GitHub\invillia\src\GamesRental\GamesRental.Application\bin\Debug\netcoreapp3.1\GamesRental.Entities.pdb
 C:\Git\GitHub\invillia\src\GamesRental\GamesRental.Application\obj\Debug\netcoreapp3.1\GamesRental.Application.csprojAssemblyReference.cache
 C:\Git\GitHub\invillia\src\GamesRental\GamesRental.Application\obj\Debug\netcoreapp3.1\GamesRental.Application.AssemblyInfoInputs.cache
 C:\Git\GitHub\invillia\src\GamesRental\GamesRental.Application\obj\Debug\netcoreapp3.1\GamesRental.Application.AssemblyInfo.cs
+C:\Git\GitHub\invillia\src\GamesRental\GamesRental.Application\obj\Debug\netcoreapp3.1\GamesRental.Application.csproj.CoreCompileInputs.cache
 C:\Git\GitHub\invillia\src\GamesRental\GamesRental.Application\obj\Debug\netcoreapp3.1\GamesRental.Application.csproj.CopyComplete
 C:\Git\GitHub\invillia\src\GamesRental\GamesRental.Application\obj\Debug\netcoreapp3.1\GamesRental.Application.dll
 C:\Git\GitHub\invillia\src\GamesRental\GamesRental.Application\obj\Debug\netcoreapp3.1\GamesRental.Application.pdb
-C:\Git\GitHub\invillia\src\GamesRental\GamesRental.Application\obj\Debug\netcoreapp3.1\GamesRental.Application.csproj.CoreCompileInputs.cache
-C:\Git\GitHub\invillia\src\GamesRental\GamesRental.Application\bin\Debug\netcoreapp3.1\GamesRental.Util.dll
-C:\Git\GitHub\invillia\src\GamesRental\GamesRental.Application\bin\Debug\netcoreapp3.1\GamesRental.Util.pdb

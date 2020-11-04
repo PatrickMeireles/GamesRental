@@ -11,6 +11,13 @@
             <param name="descricao">Parâmetro verifica se o Nome ou Email contém o parâmetro digitado.</param>
             <returns>Retorna lista de amigos</returns>
         </member>
+        <member name="M:GamesRental.WebApi.Controllers.GameController.Avaliable(System.String)">
+            <summary>
+            Chamada para lista de jogos que estão disponíveis.
+            </summary>
+            <param name="descricao"></param>
+            <returns></returns>
+        </member>
         <member name="M:GamesRental.WebApi.Controllers.LoginController.Authenticate(GamesRental.Application.ViewModel.LoginViewModel)">
             <summary>
             Chamada de Autenticação de usuário.
