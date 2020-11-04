@@ -83,6 +83,8 @@ C:\Git\GitHub\invillia\src\GamesRental\GamesRental.WebApi\obj\Debug\netcoreapp3.
 C:\Git\GitHub\invillia\src\GamesRental\GamesRental.WebApi\bin\Debug\netcoreapp3.1\FluentValidation.dll
 C:\Git\GitHub\invillia\src\GamesRental\GamesRental.WebApi\bin\Debug\netcoreapp3.1\AutoMapper.dll
 C:\Git\GitHub\invillia\src\GamesRental\GamesRental.WebApi\bin\Debug\netcoreapp3.1\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Git\GitHub\invillia\src\GamesRental\GamesRental.WebApi\bin\Debug\netcoreapp3.1\Castle.Core.dll
+C:\Git\GitHub\invillia\src\GamesRental\GamesRental.WebApi\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Proxies.dll
 C:\Git\GitHub\invillia\src\GamesRental\GamesRental.WebApi\obj\Debug\netcoreapp3.1\GamesRental.WebApi.csproj.CoreCompileInputs.cache
 C:\Git\GitHub\invillia\src\GamesRental\GamesRental.WebApi\obj\Debug\netcoreapp3.1\GamesRental.WebApi.MvcApplicationPartsAssemblyInfo.cs
 C:\Git\GitHub\invillia\src\GamesRental\GamesRental.WebApi\obj\Debug\netcoreapp3.1\GamesRental.WebApi.MvcApplicationPartsAssemblyInfo.cache

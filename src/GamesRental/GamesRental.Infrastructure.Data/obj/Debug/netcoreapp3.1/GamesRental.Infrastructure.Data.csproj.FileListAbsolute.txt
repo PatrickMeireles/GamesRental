@@ -13,7 +13,7 @@ C:\Git\GitHub\invillia\src\GamesRental\GamesRental.Infrastructure.Data\bin\Debug
 C:\Git\GitHub\invillia\src\GamesRental\GamesRental.Infrastructure.Data\bin\Debug\netcoreapp3.1\GamesRental.Domain.pdb
 C:\Git\GitHub\invillia\src\GamesRental\GamesRental.Infrastructure.Data\bin\Debug\netcoreapp3.1\GamesRental.Entities.pdb
 C:\Git\GitHub\invillia\src\GamesRental\GamesRental.Infrastructure.Data\bin\Debug\netcoreapp3.1\GamesRental.Util.pdb
-C:\Git\GitHub\invillia\src\GamesRental\GamesRental.Infrastructure.Data\obj\Debug\netcoreapp3.1\GamesRental.Infrastructure.Data.csproj.CoreCompileInputs.cache
 C:\Git\GitHub\invillia\src\GamesRental\GamesRental.Infrastructure.Data\obj\Debug\netcoreapp3.1\GamesRental.Infrastructure.Data.csproj.CopyComplete
 C:\Git\GitHub\invillia\src\GamesRental\GamesRental.Infrastructure.Data\obj\Debug\netcoreapp3.1\GamesRental.Infrastructure.Data.dll
 C:\Git\GitHub\invillia\src\GamesRental\GamesRental.Infrastructure.Data\obj\Debug\netcoreapp3.1\GamesRental.Infrastructure.Data.pdb
+C:\Git\GitHub\invillia\src\GamesRental\GamesRental.Infrastructure.Data\obj\Debug\netcoreapp3.1\GamesRental.Infrastructure.Data.csproj.CoreCompileInputs.cache

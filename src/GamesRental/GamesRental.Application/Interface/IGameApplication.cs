@@ -8,13 +8,11 @@ namespace GamesRental.Application.Interface
 {
     public interface IGameApplication
     {
-        Task<IEnumerable<GameViewModel>> GetAll(string descricao = "");
-
+        Task<IEnumerable<GameViewModel>> GetAll(string descricao = "", bool avaliable = false);
         Task<GameViewModel> GetById(int id);
-
         Task<GameViewModel> Add(GameViewModel data);
         Task<GameViewModel> Update(GameViewModel data);
-
         Task<bool> Delete(int id);
+        Task<bool> Avaliable(int id);
     }
 }

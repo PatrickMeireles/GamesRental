@@ -6,10 +6,10 @@ namespace GamesRental.Entities
 {
     public class Friend : BaseEntity
     {
-        public string Name { get; set; }
+        public virtual string Name { get; set; }
 
-        public string Email { get; set; }
+        public virtual string Email { get; set; }
 
-        public ICollection<Rental> Rents { get; set; }
+        public virtual ICollection<Rental> Rents { get; set; }
     }
 }

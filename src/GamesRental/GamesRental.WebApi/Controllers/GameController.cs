@@ -22,6 +22,15 @@ namespace GamesRental.WebApi.Controllers
         [Route("Get/{id}")]
         public async Task<IActionResult> Get(int id) => Ok(await _game.GetById(id));
 
+        /// <summary>
+        /// Chamada para lista de jogos que estão disponíveis.
+        /// </summary>
+        /// <param name="descricao"></param>
+        /// <returns></returns>
+        [HttpGet]
+        [Route("Avaliable")]
+        public async Task<IActionResult> Avaliable(string descricao) => Ok(await _game.GetAll("", true));
+
         [HttpPost]
         [Route("Post")]
         public async Task<IActionResult> Post([FromBody]GameViewModel model)

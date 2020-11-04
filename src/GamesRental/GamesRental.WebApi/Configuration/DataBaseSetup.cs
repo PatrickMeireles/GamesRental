@@ -14,7 +14,7 @@ namespace GamesRental.WebApi.Configuration
                 throw new ArgumentException(nameof(services));
 
             services.AddDbContext<BaseContext>(option =>
-                option.UseSqlServer(configuration.GetConnectionString("DefaultConnection")), ServiceLifetime.Transient);
+                option.UseSqlServer(configuration.GetConnectionString("DefaultConnection")).UseLazyLoadingProxies(), ServiceLifetime.Transient);
         }
     }
 }

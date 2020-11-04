@@ -6,15 +6,15 @@ namespace GamesRental.Entities
 {
     public class Game : BaseEntity
     {
-        public string Name { get; set; }
+        public virtual string Name { get; set; }
 
-        public string Description { get; set; }
+        public virtual string Description { get; set; }
 
         //Enum - GenreGame
-        public int Genre { get; set; }
+        public virtual int Genre { get; set; }
 
-        public DateTime? ReleaseDate { get; set; }
+        public virtual DateTime? ReleaseDate { get; set; }
 
-        public ICollection<Rental> Rents { get; set; }
+        public virtual ICollection<Rental> Rents { get; set; }
     }
 }

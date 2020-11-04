@@ -4,15 +4,15 @@ namespace GamesRental.Entities
 {
     public class User : BaseEntity
     {
-        public string Hash { get; set; }
+        public virtual string Hash { get; set; }
 
-        public string Name { get; set; }
+        public virtual string Name { get; set; }
 
-        public string Email { get; set; }
+        public virtual string Email { get; set; }
 
-        public string Password { get; set; }
+        public virtual string Password { get; set; }
 
         //Enum - RoleUser
-        public int Role { get; set; }
+        public virtual int Role { get; set; }
     }
 }

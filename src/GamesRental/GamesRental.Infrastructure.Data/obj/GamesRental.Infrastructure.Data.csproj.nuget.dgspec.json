@@ -156,6 +156,10 @@
       "frameworks": {
         "netcoreapp3.1": {
           "dependencies": {
+            "Microsoft.EntityFrameworkCore.Proxies": {
+              "target": "Package",
+              "version": "[3.1.9, )"
+            },
             "microsoft.entityframeworkcore": {
               "target": "Package",
               "version": "[3.1.9, )"

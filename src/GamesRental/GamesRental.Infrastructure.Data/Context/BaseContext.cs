@@ -19,6 +19,8 @@ namespace GamesRental.Infrastructure.Data.Context
             if (!optionsBuilder.IsConfigured)
                 optionsBuilder.UseSqlServer(configuration.GetConnectionString("DefaultConnection"));
 
+            optionsBuilder.UseLazyLoadingProxies();
+
             base.OnConfiguring(optionsBuilder);
         }
 

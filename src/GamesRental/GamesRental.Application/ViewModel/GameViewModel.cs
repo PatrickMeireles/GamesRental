@@ -18,5 +18,7 @@ namespace GamesRental.Application.ViewModel
         public string GenreDescription { get; set; }
 
         public DateTime? ReleaseDate { get; set; }
+
+        public bool Avaliable { get; set; }
     }
 }

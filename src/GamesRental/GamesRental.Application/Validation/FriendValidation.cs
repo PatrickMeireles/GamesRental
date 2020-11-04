@@ -30,7 +30,7 @@ namespace GamesRental.Application.Validation
 
         private bool Exist(FriendViewModel model)
         {
-            return _friend.GetAll()
+            return _friend.GetAll("")
                           .GetAwaiter()
                           .GetResult()
                           .Where(x => model.Id != x.Id && x.Email == model.Email)

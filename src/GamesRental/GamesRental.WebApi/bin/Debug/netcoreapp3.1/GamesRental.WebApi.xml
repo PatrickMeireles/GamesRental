@@ -4,6 +4,13 @@
         <name>GamesRental.WebApi</name>
     </assembly>
     <members>
+        <member name="M:GamesRental.WebApi.Controllers.FriendController.GetAll(System.String)">
+            <summary>
+            Lista de amigos cadastrados
+            </summary>
+            <param name="descricao">Parâmetro verifica se o Nome ou Email contém o parâmetro digitado.</param>
+            <returns>Retorna lista de amigos</returns>
+        </member>
         <member name="M:GamesRental.WebApi.Controllers.LoginController.Authenticate(GamesRental.Application.ViewModel.LoginViewModel)">
             <summary>
             Chamada de Autenticação de usuário.
@@ -14,6 +21,13 @@
             - Se possuir algum erro na validação, retorna 400;
             - Se não, irá retornar 200 com o Token.
             </returns>
+        </member>
+        <member name="M:GamesRental.WebApi.Controllers.RentalController.Post(GamesRental.Application.ViewModel.RentalCreateViewModel)">
+            <summary>
+            Criação do aluguel
+            </summary>
+            <param name="model">Preencher os valores de qual jogo e qual amigo ira alugar.</param>
+            <returns></returns>
         </member>
     </members>
 </doc>

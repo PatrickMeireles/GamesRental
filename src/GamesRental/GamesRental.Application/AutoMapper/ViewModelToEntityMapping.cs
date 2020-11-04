@@ -1,9 +1,6 @@
 ﻿using AutoMapper;
 using GamesRental.Application.ViewModel;
 using GamesRental.Entities;
-using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace GamesRental.Application.AutoMapper
 {
@@ -11,12 +8,10 @@ namespace GamesRental.Application.AutoMapper
     {
         public ViewModelToEntityMapping()
         {
-            CreateMap<UserViewModel, User>()
-                    .ForMember(x => x.Email, y => y.MapFrom(z => z.Email))
-                    .ForMember(x => x.Password, y => y.MapFrom(z => z.Password));
-
+            CreateMap<UserViewModel, User>();
             CreateMap<FriendViewModel, Friend>();
             CreateMap<GameViewModel, Game>();
+            CreateMap<RentalViewModel, Rental>();
         }
     }
 }
