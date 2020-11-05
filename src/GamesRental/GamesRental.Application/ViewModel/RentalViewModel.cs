@@ -48,5 +48,13 @@ namespace GamesRental.Application.ViewModel
         public int IdGame { get; set; }
 
         public int IdFriend { get; set; }
+
+        public RentalCreateViewModel() { }
+
+        public RentalCreateViewModel(int _idGame, int _idFriend)
+        {
+            this.IdGame = _idGame;
+            this.IdFriend = _idFriend;
+        }
     }
 }

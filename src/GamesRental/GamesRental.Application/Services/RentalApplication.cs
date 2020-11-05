@@ -31,7 +31,7 @@ namespace GamesRental.Application.Services
             return _mapper.Map<RentalViewModel>(await _rental.Update(_mapper.Map<Rental>(rental)));
         }
 
-        public async Task<IEnumerable<RentalViewModel>> GetAll(int? idGame, int? idFriend, DateTime? date, DateTime? dateFinish)
+        public async Task<IEnumerable<RentalViewModel>> GetAll(int? idGame = null, int? idFriend = null, DateTime? date = null, DateTime? dateFinish = null)
         {
             var data = _mapper.Map<IEnumerable<RentalViewModel>>(await _rental.GetAll());
 
@@ -52,6 +52,6 @@ namespace GamesRental.Application.Services
 
         public async  Task<RentalViewModel> GetById(int id) => _mapper.Map<RentalViewModel>(await _rental.GetById(id));
 
-        public async Task<RentalViewModel> Update(RentalViewModel data) => _mapper.Map<RentalViewModel>(await _rental.Add(_mapper.Map<Rental>(data)));
+        public async Task<RentalViewModel> Update(RentalViewModel data) => _mapper.Map<RentalViewModel>(await _rental.Update(_mapper.Map<Rental>(data)));
     }
 }
