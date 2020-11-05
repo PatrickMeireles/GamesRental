@@ -24,7 +24,7 @@ namespace GamesRental.Application.Validation
                    .EmailAddress().WithMessage("Email informado não é válido.");
 
             RuleFor(x => x)
-                .Must(x => !GetById(x.Id)).When(x => x.Id != 0).WithMessage("Amigo não encontrado")
+                .Must(x => !GetById(x.Id)).When(x => x.Id != 0).WithMessage("Amigo não encontrado.")
                 .Must(x => !Exist(x)).WithMessage("Já possui um amigo cadastrado com esse email.");
         }
 

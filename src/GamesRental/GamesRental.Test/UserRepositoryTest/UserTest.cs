@@ -13,7 +13,7 @@ using GamesRental.Application.Validation;
 using Microsoft.EntityFrameworkCore.Internal;
 using System.Linq;
 
-namespace GamesRental.Test.User
+namespace GamesRental.Test.UserRepositoryTest
 {
     public class UserTest 
     {
@@ -60,7 +60,7 @@ namespace GamesRental.Test.User
         {
             var user = _mapper.Map<Entities.User>(userViewModel);
 
-            _user.Setup(x => x.Authenticate(user.Email, user.Password)).ReturnsAsync(user);
+            _user.Setup(x => x.Authenticate(It.IsAny<string>(), It.IsAny<string>())).ReturnsAsync(user);
 
             var authenticate = await _userApplication.Authenticate(loginViewModel.Login, loginViewModel.Password);
 

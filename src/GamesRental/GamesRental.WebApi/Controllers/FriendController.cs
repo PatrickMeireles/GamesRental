@@ -72,11 +72,14 @@ namespace GamesRental.WebApi.Controllers
             var friend = await _friend.GetById(id);
 
             if (friend == null)
-                return NotFound(new { errors = "Amigo não encontrado." });
-
-            await _friend.Delete(id);
-
-            return Ok();
+                return BadRequest(new { errors = "Amigo não encontrado." });
+            else if(friend.HaveRents)
+                return BadRequest(new { errors = "Não foi possível excluir o amigo, pois existe empréstimo por ele." });
+            else
+            {
+                await _friend.Delete(id);
+                return Ok();
+            }            
         }
 
     }

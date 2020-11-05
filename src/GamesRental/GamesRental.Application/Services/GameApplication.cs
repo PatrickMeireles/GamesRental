@@ -39,15 +39,15 @@ namespace GamesRental.Application.Services
 
         public async Task<bool> Delete(int id) => await _game.Delete(id);
 
-        public async Task<IEnumerable<GameViewModel>> GetAll(string descricao, bool avaliable) 
+        public async Task<IEnumerable<GameViewModel>> GetAll(string descricao, bool? avaliable) 
         {
             var data = _mapper.Map<IEnumerable<GameViewModel>>(await _game.GetAll());
 
             if (!String.IsNullOrEmpty(descricao) && !String.IsNullOrWhiteSpace(descricao))
                 data = data.Where(x => x.Name == descricao);
 
-            if (avaliable)
-                data = data.Where(x => x.Avaliable);
+            if (avaliable.HasValue)
+                data = data.Where(x => x.Avaliable == avaliable.Value);
 
             return data;
         }

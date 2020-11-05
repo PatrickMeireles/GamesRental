@@ -23,7 +23,7 @@ namespace GamesRental.Application.Services
 
         public async Task<bool> Delete(int id) => await _friend.Delete(id);
 
-        public async Task<IEnumerable<FriendViewModel>> GetAll(string descricao)
+        public async Task<IEnumerable<FriendViewModel>> GetAll(string descricao = "")
         {
             var data = await _friend.GetAll();
 

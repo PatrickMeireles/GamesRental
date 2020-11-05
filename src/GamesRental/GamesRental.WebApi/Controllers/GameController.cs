@@ -78,10 +78,13 @@ namespace GamesRental.WebApi.Controllers
 
             if (game == null)
                 return BadRequest(new { errors = "Jogo não foi encontrado" });
-
-            await _game.Delete(id);
-
-            return Ok();
+            else if(game.HaveRents)
+                return BadRequest(new { errors = "Não foi possível excluir o jogo, pois há empréstimos cadastrados com ele." });
+            else
+            {
+                await _game.Delete(id);
+                return Ok();
+            }
         }
     }
 }
