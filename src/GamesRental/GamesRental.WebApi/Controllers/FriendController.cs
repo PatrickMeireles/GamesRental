@@ -5,6 +5,7 @@ using GamesRental.Application.Validation.Util;
 using GamesRental.Application.ViewModel;
 using GamesRental.Entities.Enuns;
 using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
 namespace GamesRental.WebApi.Controllers
@@ -32,10 +33,13 @@ namespace GamesRental.WebApi.Controllers
 
         [HttpPost]
         [Route("Post")]
+        [ProducesResponseType(StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status400BadRequest)]
+        [ProducesResponseType(StatusCodes.Status204NoContent)]
         public async Task<IActionResult> Post([FromBody]FriendViewModel model)
         {
             if(model == null)
-                return NotFound();
+                return NoContent();
 
             var validation = new FriendValidation(_friend).Validate(model);
 
@@ -49,10 +53,13 @@ namespace GamesRental.WebApi.Controllers
 
         [HttpPut]
         [Route("Put/{id}")]
+        [ProducesResponseType(StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status400BadRequest)]
+        [ProducesResponseType(StatusCodes.Status204NoContent)]
         public async Task<IActionResult> Put(int id, [FromBody] FriendViewModel model)
         {
             if (id == 0 ||model == null)
-                return NotFound();
+                return NoContent();
 
             model.Id = id;
             var validation = new FriendValidation(_friend).Validate(model);
@@ -67,10 +74,13 @@ namespace GamesRental.WebApi.Controllers
 
         [HttpDelete]
         [Route("Delete/{id}")]
+        [ProducesResponseType(StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status400BadRequest)]
+        [ProducesResponseType(StatusCodes.Status204NoContent)]
         public async Task<IActionResult> Delete(int id)
         {
             if (id == 0)
-                return NotFound();
+                return NoContent();
 
             var friend = await _friend.GetById(id);
 

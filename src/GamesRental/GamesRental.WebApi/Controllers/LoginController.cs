@@ -35,7 +35,7 @@ namespace GamesRental.WebApi.Controllers
         public async Task<IActionResult> Authenticate([FromBody] LoginViewModel model)
         {
             if (model == null)
-                return NotFound();
+                return NoContent();
 
             var validation = new LoginValidation(_user).Validate(model);
 

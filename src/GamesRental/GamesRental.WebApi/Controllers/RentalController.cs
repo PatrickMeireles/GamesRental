@@ -7,6 +7,7 @@ using GamesRental.Application.ViewModel;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Authorization;
 using GamesRental.Entities.Enuns;
+using Microsoft.AspNetCore.Http;
 
 namespace GamesRental.WebApi.Controllers
 {
@@ -36,10 +37,13 @@ namespace GamesRental.WebApi.Controllers
         /// <returns></returns>
         [HttpPost]
         [Route("Post")]
+        [ProducesResponseType(StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status400BadRequest)]
+        [ProducesResponseType(StatusCodes.Status204NoContent)]
         public async Task<IActionResult> Post([FromBody]RentalCreateViewModel model)
         {
             if (model == null || model.IdFriend <= 0 || model.IdGame <= 0)
-                return NotFound();
+                return NoContent();
 
             var rentalVM = new RentalViewModel(model.IdGame, model.IdFriend, DateTime.Now);
 
@@ -55,10 +59,13 @@ namespace GamesRental.WebApi.Controllers
 
         [HttpPost]
         [Route("Finish/{id}")]
+        [ProducesResponseType(StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status400BadRequest)]
+        [ProducesResponseType(StatusCodes.Status204NoContent)]
         public async Task<IActionResult> Finish(int id)
         {
             if (id == 0)
-                return NotFound();
+                return NoContent();
 
             var rental = await _rental.GetById(id);
 
