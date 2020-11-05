@@ -1,4 +1,5 @@
 ﻿using GamesRental.Application.ViewModel;
+using GamesRental.Entities.Enuns;
 using Microsoft.Extensions.Configuration;
 using Microsoft.IdentityModel.Tokens;
 using System;
@@ -26,7 +27,7 @@ namespace GamesRental.WebApi.Security
                 {
                     new Claim(ClaimTypes.Name, user.Name),
                     new Claim(ClaimTypes.Hash, user.Hash),
-                    new Claim(ClaimTypes.Role, user.Role.ToString())
+                    new Claim(ClaimTypes.Role, Enum.GetName(typeof(RoleUser), user.Role))
                 }),
                 Expires = DateTime.UtcNow.AddHours(2),
                 SigningCredentials = new SigningCredentials(new SymmetricSecurityKey(key), SecurityAlgorithms.HmacSha256Signature)

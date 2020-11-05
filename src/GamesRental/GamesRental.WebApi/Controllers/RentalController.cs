@@ -5,10 +5,13 @@ using GamesRental.Application.Validation;
 using GamesRental.Application.Validation.Util;
 using GamesRental.Application.ViewModel;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Authorization;
+using GamesRental.Entities.Enuns;
 
 namespace GamesRental.WebApi.Controllers
 {
     [Route("v1/Rental")]
+    [Authorize(Roles = nameof(RoleUser.Administrator))]
     public class RentalController : Controller
     {
         private readonly IRentalApplication _rental;

@@ -3,11 +3,14 @@ using GamesRental.Application.Interface;
 using GamesRental.Application.Validation;
 using GamesRental.Application.Validation.Util;
 using GamesRental.Application.ViewModel;
+using GamesRental.Entities.Enuns;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace GamesRental.WebApi.Controllers
 {
     [Route("v1/Game")]
+    [Authorize(Roles = nameof(RoleUser.Administrator))]
     public class GameController : Controller
     {
         private readonly IGameApplication _game;

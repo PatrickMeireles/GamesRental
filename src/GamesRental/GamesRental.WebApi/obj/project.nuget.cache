@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "n5/sFmZrTAxbGwL6ItVVfmgMyB9iO27ilUDc0Lj+5HIKrV4QaO7y1fp+GTeIb+nf+AUHa4g/nvfnCRnAbpaeEQ==",
+  "dgSpecHash": "YKzJA40uS16gvbCucE2JjCdaJJj6MjOgT0X5j0oRo8+Pwjki3f8ARjiEtolI9JUQIotobxKrXV6HiwlzjLKjCQ==",
   "success": true,
   "projectFilePath": "C:\\Git\\GitHub\\invillia\\src\\GamesRental\\GamesRental.WebApi\\GamesRental.WebApi.csproj",
   "expectedPackageFiles": [
@@ -8,6 +8,7 @@
     "C:\\Users\\patri\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.1.0\\automapper.extensions.microsoft.dependencyinjection.8.1.0.nupkg.sha512",
     "C:\\Users\\patri\\.nuget\\packages\\castle.core\\4.4.0\\castle.core.4.4.0.nupkg.sha512",
     "C:\\Users\\patri\\.nuget\\packages\\fluentvalidation\\9.2.2\\fluentvalidation.9.2.2.nupkg.sha512",
+    "C:\\Users\\patri\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\3.1.9\\microsoft.aspnetcore.authentication.jwtbearer.3.1.9.nupkg.sha512",
     "C:\\Users\\patri\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\patri\\.nuget\\packages\\microsoft.bcl.hashcode\\1.1.0\\microsoft.bcl.hashcode.1.1.0.nupkg.sha512",
     "C:\\Users\\patri\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",

@@ -9,6 +9,7 @@ C:\Git\GitHub\invillia\src\GamesRental\GamesRental.Test\bin\Debug\netcoreapp3.1\
 C:\Git\GitHub\invillia\src\GamesRental\GamesRental.Test\bin\Debug\netcoreapp3.1\AutoMapper.dll
 C:\Git\GitHub\invillia\src\GamesRental\GamesRental.Test\bin\Debug\netcoreapp3.1\Bogus.dll
 C:\Git\GitHub\invillia\src\GamesRental\GamesRental.Test\bin\Debug\netcoreapp3.1\Castle.Core.dll
+C:\Git\GitHub\invillia\src\GamesRental\GamesRental.Test\bin\Debug\netcoreapp3.1\ExpectedObjects.dll
 C:\Git\GitHub\invillia\src\GamesRental\GamesRental.Test\bin\Debug\netcoreapp3.1\FluentValidation.dll
 C:\Git\GitHub\invillia\src\GamesRental\GamesRental.Test\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
 C:\Git\GitHub\invillia\src\GamesRental\GamesRental.Test\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
@@ -150,9 +151,8 @@ C:\Git\GitHub\invillia\src\GamesRental\GamesRental.Test\bin\Debug\netcoreapp3.1\
 C:\Git\GitHub\invillia\src\GamesRental\GamesRental.Test\obj\Debug\netcoreapp3.1\GamesRental.Test.csprojAssemblyReference.cache
 C:\Git\GitHub\invillia\src\GamesRental\GamesRental.Test\obj\Debug\netcoreapp3.1\GamesRental.Test.AssemblyInfoInputs.cache
 C:\Git\GitHub\invillia\src\GamesRental\GamesRental.Test\obj\Debug\netcoreapp3.1\GamesRental.Test.AssemblyInfo.cs
+C:\Git\GitHub\invillia\src\GamesRental\GamesRental.Test\obj\Debug\netcoreapp3.1\GamesRental.Test.csproj.CoreCompileInputs.cache
 C:\Git\GitHub\invillia\src\GamesRental\GamesRental.Test\obj\Debug\netcoreapp3.1\GamesRental.Test.csproj.CopyComplete
 C:\Git\GitHub\invillia\src\GamesRental\GamesRental.Test\obj\Debug\netcoreapp3.1\GamesRental.Test.dll
 C:\Git\GitHub\invillia\src\GamesRental\GamesRental.Test\obj\Debug\netcoreapp3.1\GamesRental.Test.pdb
 C:\Git\GitHub\invillia\src\GamesRental\GamesRental.Test\obj\Debug\netcoreapp3.1\GamesRental.Test.genruntimeconfig.cache
-C:\Git\GitHub\invillia\src\GamesRental\GamesRental.Test\obj\Debug\netcoreapp3.1\GamesRental.Test.csproj.CoreCompileInputs.cache
-C:\Git\GitHub\invillia\src\GamesRental\GamesRental.Test\bin\Debug\netcoreapp3.1\ExpectedObjects.dll

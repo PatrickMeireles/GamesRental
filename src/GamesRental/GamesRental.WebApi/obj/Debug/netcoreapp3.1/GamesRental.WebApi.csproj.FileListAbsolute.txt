@@ -12,6 +12,7 @@ C:\Git\GitHub\invillia\src\GamesRental\GamesRental.WebApi\bin\Debug\netcoreapp3.
 C:\Git\GitHub\invillia\src\GamesRental\GamesRental.WebApi\bin\Debug\netcoreapp3.1\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
 C:\Git\GitHub\invillia\src\GamesRental\GamesRental.WebApi\bin\Debug\netcoreapp3.1\Castle.Core.dll
 C:\Git\GitHub\invillia\src\GamesRental\GamesRental.WebApi\bin\Debug\netcoreapp3.1\FluentValidation.dll
+C:\Git\GitHub\invillia\src\GamesRental\GamesRental.WebApi\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 C:\Git\GitHub\invillia\src\GamesRental\GamesRental.WebApi\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
 C:\Git\GitHub\invillia\src\GamesRental\GamesRental.WebApi\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
 C:\Git\GitHub\invillia\src\GamesRental\GamesRental.WebApi\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll

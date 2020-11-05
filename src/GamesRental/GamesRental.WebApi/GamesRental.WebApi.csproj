@@ -7,6 +7,7 @@
   <ItemGroup>
     <PackageReference Include="automapper" Version="10.1.1" />
     <PackageReference Include="automapper.extensions.microsoft.dependencyinjection" Version="8.1.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="3.1.9" />
     <PackageReference Include="microsoft.entityframeworkcore" Version="3.1.9" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Proxies" Version="3.1.9" />
     <PackageReference Include="microsoft.entityframeworkcore.sqlserver" Version="3.1.9" />
