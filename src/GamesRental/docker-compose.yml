@@ -1,0 +1,12 @@
+version: '3.4'
+
+services:
+  gamesrental.webapi:
+    image: ${DOCKER_REGISTRY-}gamesrentalwebapi
+    build:
+      context: .
+      dockerfile: GamesRental.WebApi/Dockerfile
+    ports:
+        - "20000:80"
+      
+ 

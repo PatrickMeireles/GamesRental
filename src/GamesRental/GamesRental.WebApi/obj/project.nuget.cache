@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "YKzJA40uS16gvbCucE2JjCdaJJj6MjOgT0X5j0oRo8+Pwjki3f8ARjiEtolI9JUQIotobxKrXV6HiwlzjLKjCQ==",
+  "dgSpecHash": "68wYlPyzVWmocZVQjuG1tF3LDkUCv28BSzFJr42fCWbGtUk13Fr+enQIqrr6lEbTQl+Jc/hMGehnmzNXJT8wXw==",
   "success": true,
   "projectFilePath": "C:\\Git\\GitHub\\invillia\\src\\GamesRental\\GamesRental.WebApi\\GamesRental.WebApi.csproj",
   "expectedPackageFiles": [
@@ -47,6 +47,7 @@
     "C:\\Users\\patri\\.nuget\\packages\\microsoft.netcore.platforms\\2.0.0\\microsoft.netcore.platforms.2.0.0.nupkg.sha512",
     "C:\\Users\\patri\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
     "C:\\Users\\patri\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\patri\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.10.9\\microsoft.visualstudio.azure.containers.tools.targets.1.10.9.nupkg.sha512",
     "C:\\Users\\patri\\.nuget\\packages\\microsoft.win32.primitives\\4.3.0\\microsoft.win32.primitives.4.3.0.nupkg.sha512",
     "C:\\Users\\patri\\.nuget\\packages\\microsoft.win32.registry\\4.5.0\\microsoft.win32.registry.4.5.0.nupkg.sha512",
     "C:\\Users\\patri\\.nuget\\packages\\netstandard.library\\1.6.1\\netstandard.library.1.6.1.nupkg.sha512",

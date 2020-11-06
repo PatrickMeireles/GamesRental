@@ -1,0 +1,16 @@
+services:
+  gamesrental.webapi:
+    build:
+      context: C:\Git\GitHub\invillia\src\GamesRental
+      dockerfile: GamesRental.WebApi/Dockerfile
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_URLS: https://+:443;http://+:80
+    image: gamesrentalwebapi
+    ports:
+    - 20000:80/tcp
+    - 80/tcp
+    - 443/tcp
+    volumes:
+    - C:\Users\patri\AppData\Roaming\ASP.NET\Https:/root/.aspnet/https:ro
+version: '3.4'

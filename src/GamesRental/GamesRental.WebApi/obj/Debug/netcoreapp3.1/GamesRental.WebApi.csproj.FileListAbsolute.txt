@@ -78,9 +78,6 @@ C:\Git\GitHub\invillia\src\GamesRental\GamesRental.WebApi\bin\Debug\netcoreapp3.
 C:\Git\GitHub\invillia\src\GamesRental\GamesRental.WebApi\obj\Debug\netcoreapp3.1\GamesRental.WebApi.csprojAssemblyReference.cache
 C:\Git\GitHub\invillia\src\GamesRental\GamesRental.WebApi\obj\Debug\netcoreapp3.1\GamesRental.WebApi.AssemblyInfoInputs.cache
 C:\Git\GitHub\invillia\src\GamesRental\GamesRental.WebApi\obj\Debug\netcoreapp3.1\GamesRental.WebApi.AssemblyInfo.cs
-C:\Git\GitHub\invillia\src\GamesRental\GamesRental.WebApi\obj\Debug\netcoreapp3.1\GamesRental.WebApi.csproj.CoreCompileInputs.cache
-C:\Git\GitHub\invillia\src\GamesRental\GamesRental.WebApi\obj\Debug\netcoreapp3.1\GamesRental.WebApi.MvcApplicationPartsAssemblyInfo.cs
-C:\Git\GitHub\invillia\src\GamesRental\GamesRental.WebApi\obj\Debug\netcoreapp3.1\GamesRental.WebApi.MvcApplicationPartsAssemblyInfo.cache
 C:\Git\GitHub\invillia\src\GamesRental\GamesRental.WebApi\obj\Debug\netcoreapp3.1\GamesRental.WebApi.RazorTargetAssemblyInfo.cache
 C:\Git\GitHub\invillia\src\GamesRental\GamesRental.WebApi\obj\Debug\netcoreapp3.1\GamesRental.WebApi.csproj.CopyComplete
 C:\Git\GitHub\invillia\src\GamesRental\GamesRental.WebApi\obj\Debug\netcoreapp3.1\staticwebassets\GamesRental.WebApi.StaticWebAssets.Manifest.cache
@@ -89,3 +86,6 @@ C:\Git\GitHub\invillia\src\GamesRental\GamesRental.WebApi\obj\Debug\netcoreapp3.
 C:\Git\GitHub\invillia\src\GamesRental\GamesRental.WebApi\obj\Debug\netcoreapp3.1\GamesRental.WebApi.xml
 C:\Git\GitHub\invillia\src\GamesRental\GamesRental.WebApi\obj\Debug\netcoreapp3.1\GamesRental.WebApi.pdb
 C:\Git\GitHub\invillia\src\GamesRental\GamesRental.WebApi\obj\Debug\netcoreapp3.1\GamesRental.WebApi.genruntimeconfig.cache
+C:\Git\GitHub\invillia\src\GamesRental\GamesRental.WebApi\obj\Debug\netcoreapp3.1\GamesRental.WebApi.csproj.CoreCompileInputs.cache
+C:\Git\GitHub\invillia\src\GamesRental\GamesRental.WebApi\obj\Debug\netcoreapp3.1\GamesRental.WebApi.MvcApplicationPartsAssemblyInfo.cs
+C:\Git\GitHub\invillia\src\GamesRental\GamesRental.WebApi\obj\Debug\netcoreapp3.1\GamesRental.WebApi.MvcApplicationPartsAssemblyInfo.cache
