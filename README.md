@@ -1,4 +1,4 @@
-# Invillia
+# Games Rental
 
 ## Instruções
 - Usuário cria automáticamente no banco ao iniciar a aplicação. <br>
